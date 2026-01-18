@@ -1,10 +1,12 @@
 /* Small Devices */
 @media screen and (max-width: 480px) {
   .container {
-    width: 90%;
+    width: 98%;
     margin: 0 auto;
   }
-  header {
+
+  header,
+  #banner {
     margin-top: 20px;
   }
   #navbar {
@@ -14,19 +16,50 @@
   #nav_links {
     display: none;
   }
+  #banner {
+    padding: 5px;
+  }
+
+  #banner_heading {
+    font-size: 2rem;
+  }
+  #banner_form {
+    flex-direction: column;
+  }
+  #banner_form input[type="email"],
+  #banner_form input[type="submit"] {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 /* Medium Devices */
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .container {
-    width: 90%;
+    width: 98%;
     margin: 0 auto;
   }
-  header {
+  header,
+  #banner {
     margin-top: 40px;
   }
   #navbar {
     flex-direction: column;
     gap: 40px;
+  }
+  #banner {
+    padding: 15px 25px;
+  }
+
+  #banner_heading {
+    font-size: 2rem;
+  }
+  #banner_form {
+    flex-direction: column;
+  }
+  #banner_form input[type="email"],
+  #banner_form input[type="submit"] {
+    width: 100%;
+    justify-content: center;
   }
 }
