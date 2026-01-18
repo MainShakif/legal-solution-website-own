@@ -1,0 +1,32 @@
+/* Small Devices */
+@media screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  header {
+    margin-top: 20px;
+  }
+  #navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #nav_links {
+    display: none;
+  }
+}
+
+/* Medium Devices */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  header {
+    margin-top: 40px;
+  }
+  #navbar {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

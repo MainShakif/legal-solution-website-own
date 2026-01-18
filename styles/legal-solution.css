@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* google font: EB Garamond  */
+.eb_garamond_font {
+  font-family: "EB Garamond", serif;
+}
+
+/* shared styles */
+.container {
+  width: 61%;
+  margin: 0 auto;
+}
+.display_flex {
+  display: flex;
+}
+.btn_primary {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #b68c5a;
+  padding: 18px 30px;
+  border-radius: 8px;
+  border: none;
+}
+/*  */
+header {
+  margin-top: 60px;
+}
+
+/* navbar design */
+#navbar {
+  align-items: center;
+  justify-content: space-between;
+}
+#nav_links {
+  gap: 30px;
+}
+#nav_items {
+  list-style: none;
+}
+#nav_link {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #707070;
+}
+.fa-angle-right {
+  position: relative;
+  top: 3px;
+  left: 7px;
+}
