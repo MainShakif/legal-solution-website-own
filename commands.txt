@@ -1,0 +1,7 @@
+echo "# legal-solution-website-own" >> README.md
+git init
+git add .
+git commit -m "added images and created index.html file and css file."
+git branch -M main
+git remote add origin https://github.com/MainShakif/legal-solution-website-own.git
+git push -u origin main
